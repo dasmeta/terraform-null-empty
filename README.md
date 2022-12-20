@@ -1,0 +1,1 @@
+## in some cases we need to have an placeholder module (for example in tests) and this module supposed to be used in that cases. This module have no any resources/codes 
