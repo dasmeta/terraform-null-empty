@@ -21,3 +21,11 @@ output "second-bool-variable" {
 output "third-number-variable" {
   value = var.third-number
 }
+
+output "fourth-list-variable" {
+  value = var.fourth-list
+}
+
+output "fifth-object-variable" {
+  value = var.fifth-object
+}

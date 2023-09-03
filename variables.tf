@@ -15,3 +15,23 @@ variable "third-number" {
   default     = 345678
   description = "Numeric variable to be tested in other modules"
 }
+
+variable "fourth-list" {
+  type        = list(string)
+  default     = ["value1", "value2"]
+  description = "List of strings to be tested in other modules"
+}
+
+variable "fifth-object" {
+  type = object({
+    attribute1 = string
+    attribute2 = bool
+    attribute3 = number
+  })
+  default = {
+    attribute1 = "string"
+    attribute2 = true
+    attribute3 = 4567894
+  }
+  description = "List of strings to be tested in other modules"
+}
